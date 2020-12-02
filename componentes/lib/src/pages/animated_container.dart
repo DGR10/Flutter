@@ -28,7 +28,7 @@ class _AnimatedContainerPageState extends State<AnimatedContainerPage> {
             borderRadius: _borderRadiusGeometry,
             color: _color,
           ),
-          duration: Duration(milliseconds: 300),
+          duration: Duration(seconds: 1),
           curve: Curves.fastOutSlowIn,
         ),
       ),
