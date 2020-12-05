@@ -35,6 +35,11 @@
             "ruta" : "/list",
             "icon" : "list",
             "texto": "Listas - Scroll"
+        },
+        {
+            "ruta" : "/safe",
+            "icon" : "ac_unit",
+            "texto": "Safe Area"
         }
     ]
 }

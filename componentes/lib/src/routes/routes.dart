@@ -8,18 +8,20 @@ import 'package:componentes/src/pages/animated_container.dart';
 import 'package:componentes/src/pages/input_page.dart';
 import 'package:componentes/src/pages/slider_page.dart';
 import 'package:componentes/src/pages/listview_page.dart';
+import 'package:componentes/src/pages/safearea_page.dart';
 
 Map<String, WidgetBuilder> getApplicationRoutes () {
 
   return <String, WidgetBuilder> {
     '/' : ( BuildContext context ) => HomePage(),
     '/alert' : ( BuildContext context ) => AlertPage(),
-    '/avatar' : ( BuildContext context ) => AvatarPage(),
+    AvatarPage.pageName : ( BuildContext context ) => AvatarPage(),
     '/card' : ( BuildContext context ) => CardPage(),
     '/animatedContanier' : ( BuildContext context ) => AnimatedContainerPage(),
     '/inputs' : ( BuildContext context ) => InputPage(),
     '/slider' : ( BuildContext context ) => SliderPage(),
     '/list' : ( BuildContext context ) => ListaPage(),
+    '/safe' : ( BuildContext context ) => SafeAreaPage(),
   };
 
 }

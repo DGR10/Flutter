@@ -8,6 +8,7 @@ final _icons = <String, IconData>{
   'input': Icons.input,
   'tune': Icons.tune,
   'list': Icons.list,
+  'ac_unit': Icons.ac_unit,
 };
 
 Icon getIcon( String nombreIcono ) {
